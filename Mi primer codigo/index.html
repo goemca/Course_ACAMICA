@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Primer proyecto</title>
+    <style>
+            body
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                background-color: rgb(51, 141, 214);
+            }
+            a
+            {
+                color: yellow;
+            }
+            p
+            {
+                color: green;
+            }
+
+    </style>
+    
+</head>
+
+
+<body>
+    <h1>
+        ¡¡ Hola Mundo !!
+    </h1>
+    
+    <h2>
+        Club Atletico Boca Juniors
+        <img src="imagen.png" alt="Aca va la foto del escudo de Boca" title="el mejor escudo de todos">
+    </h2>
+    <p>
+        Esta es mi primera web en la carrera DFWS de Acamica
+    </p>
+    
+    <p>
+    <a href="perfil.html"> Boca 2019 </a>
+    </p>
+
+</body>
+
+<script>
+              var parrafo = document.querySelector('p');//paso como parametro parrafo para modificar los parrafos
+              parrafo.style.cursor = 'pointer';
+              parrafo.addEventListener('mouseenter', function()
+              {
+                  parrafo.style.color = 'orange';
+              });
+              parrafo.addEventListener('mouseleave', function()
+              {
+                  parrafo.style.color = 'white';
+              });
+              parrafo.addEventListener('click', function()
+              {
+                  alert("Felicitaciones! Lograste crear tu primera web interactiva!");
+              })
+       
+</script>
+</html>

@@ -1,0 +1,74 @@
+.clock {
+    background: url(./ios_clock.svg) no-repeat center;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    display: flexbox;
+    animation-name: reloj;
+    /*animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;*/
+
+}
+
+.clock::after {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
+
+.clock img {
+    position: relative;
+    height: 300px;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
+
+.clock #hora {
+    height: 300px;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.clock #minutos {
+    position: absolute;
+    content: '';
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    transform: rotate(60deg)
+}
+
+.clock #segundos {
+    position: absolute;
+    content: '';
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    transform: rotate(210deg);
+}
+
+@keyframes reloj {
+    0% {
+        
+        transform: rotate(0deg);
+        transform-origin: left;
+    }
+    100% {
+        
+        transform: rotate(360deg);
+        transform-origin: left;
+    }
+}

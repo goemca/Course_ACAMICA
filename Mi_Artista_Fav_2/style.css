@@ -1,0 +1,10 @@
+body
+{
+background-image: url("images/fondo3.jpg");
+}
+
+#menu 
+{
+    list-style: none;
+    display: inline;
+}

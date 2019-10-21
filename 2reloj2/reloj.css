@@ -1,0 +1,62 @@
+.clock {
+    padding: 100px;
+    background: url(./images/gis.jpg) no-repeat center;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    background-color: #ededee;
+    background-size: 100%;
+    border: 10px solid #555;
+ 
+    /*animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;*/
+}
+
+.clock img {
+    position: relative;
+    height: 300px;
+    
+}
+
+/*
+.clock #hora {
+    height: 300px;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.clock #minutos {
+    position: absolute;
+    content: '';
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    transform: rotate(60deg)
+}
+
+.clock #segundos {
+    position: absolute;
+    content: '';
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    transform: rotate(210deg);
+}
+*/
+
+@keyframes reloj {
+    0% {
+        
+        transform: rotate(0deg);
+        transform-origin: left;
+    }
+    100% {
+        
+        transform: rotate(360deg);
+        transform-origin: left;
+    }
+}
