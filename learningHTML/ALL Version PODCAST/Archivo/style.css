@@ -1,0 +1,206 @@
+body {
+  font-family: "IBM Plex Mono", monospace;
+}
+.episodios {
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+  width: 1440px;
+  height: auto;
+}
+
+.title-ep {
+  display: flex;
+  font-size: 36px;
+  color: white;
+  padding-top: 64px;
+  margin-left: 170px;
+  margin-bottom: 12px;
+}
+
+.items-episodios {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.iframes {
+  position: relative;
+  width: 584px;
+  height: 232px;
+  margin: 30px;
+}
+
+.background {
+  display: flex;
+  z-index: -1;
+  width: 180%;
+  background-image: linear-gradient(225deg, blue, blue);
+  height: 80%;
+  transform: skewY(-5deg);
+  position: absolute;
+}
+
+#parrafo {
+  display: flex;
+  padding: 10px;
+  height: 100%;
+  text-align: -webkit-left;
+  margin: initial;
+  position: relative;
+  left: 100px;
+}
+#titulo {
+  margin: initial;
+  text-align: center;
+  position: relative;
+  left: -30px;
+}
+
+.titulo-1 {
+  max-width: 70%;
+  margin: 10px;
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+  height: 50%;
+}
+
+.conoce_mas {
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem;
+  color: black;
+  background-color: #00f3bb;
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 1rem;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 10px;
+  position: absolute;
+  left: 15%;
+}
+
+.donde-venimos {
+  display: flex;
+}
+
+.news {
+  display: flex;
+  z-index: -1;
+  width: 100%;
+  background-image: linear-gradient(225deg, blue, blue);
+  height: 100%;
+  transform: skewY(-5deg);
+  position: absolute;
+}
+
+.novedades {
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+/*    */
+.menu {
+  position: fixed;
+  padding: 1rem;
+  width: 95%;
+  height: 50px;
+}
+
+.logo-menu {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+
+.menu-m {
+  display: inline-block;
+  height: 100%;
+  text-align: right;
+  float: right;
+}
+
+.menu-items {
+  height: 100%;
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+.menu-items li a {
+  text-decoration: none;
+  height: 100%;
+}
+
+.menu-items li {
+  display: inline;
+  color: #060a24;
+  padding: 10px;
+  height: 100%;
+}
+
+.fondo_color {
+  display: flex;
+  z-index: -1;
+  width: 100%;
+  background-image: linear-gradient(225deg, blue, blue);
+  height: 100%;
+  transform: skewY(-5deg);
+  position: absolute;
+  clip-path: polygon(100% 0, 100% 95%, 0 100%, 0 4%);
+}
+
+.medio {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.novedades {
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+}
+
+.titulo-nov {
+  display: flex;
+  font-size: 36px;
+  color: white;
+  padding-top: 64px;
+  margin-left: 16px;
+  margin-bottom: 12px;
+}
+
+.news {
+  display: flex;
+  z-index: -1;
+  width: 100%;
+  background-image: linear-gradient(225deg, blue, white);
+  height: 100%;
+  transform: skewY(-5deg);
+  position: absolute;
+}
+
+.footer_final {
+  position: relative;
+  left: 10%;
+  margin: 15px;
+}
+
+.footer_final p {
+  justify-content: flex-start;
+}
+
+.redes {
+  display: flex;
+  justify-content: flex-end;
+  background: white;
+}

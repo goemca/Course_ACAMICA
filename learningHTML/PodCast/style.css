@@ -1,0 +1,35 @@
+
+body{
+    font-family: 'IBM Plex Mono', monospace;
+}
+.episodios {
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+}
+
+.title-ep {
+  display: flex;
+  font-size: 36px;
+  color: white;
+  padding-top: 64px;
+  margin-left: 16px;
+  margin-bottom: 12px;
+}
+
+.items-episodios {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.background {
+  display: flex;
+  z-index: -1;
+  width: 100%;
+  background-image: linear-gradient(225deg, blue, blue);
+  height: 100%;
+  transform: skewY(-5deg);
+  position: absolute;
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>PodCast_Channel</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container flex">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/logo.svg" alt="logo_page" />
+                </a>
+            </div>
+            <div class="menu">
+                <input id="toggle" type="checkbox" />
+                <label for="toggle" class="hamburger">
+                    <i class="fas fa-bars fa-2x"></i>
+                    <i class="fas fa-times fa-2x"></i>
+                </label>
+                <ul class="menu-items">
+                    <li>
+                        <a href="#episodios">
+                            Episodios
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#nosotros">
+                            Nosotros
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#entrevistas">
+                            Entrevistas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#topicos">
+                            Tópicos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header-container container flex">
+        <div class="header1">
+            <h1>
+                <span class="br">
+                    Hello <span class="strikethrough">world</span> pale blue dot.
+                </span>
+            </h1>
+            <p>
+                El portal de podcast que explora el mundo de la programacion y
+                <span class="br">
+                    la tecnologia. Nuevos espisodios , todos los jueves cada 15 dias.
+                </span>
+            </p>
+            <a class="btn">conocé más</a>
+        </div>
+    </div>
+
+
+
+    <section id="episodios" class="episodios">
+        <div class="fondo_color"></div>
+        <p class="title-ep">Episodios</p>
+        <div class="items-episodios">
+
+            <iframe class="iframes" src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="298"
+                height="218" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="iframes" src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" width="298"
+                height="218" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="iframes" src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="298"
+                height="218" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="iframes" src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" width="298"
+                height="218" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+        </div>
+    </section>
+
+
+
+    <section class="donde flex container" id="nosotros">
+        <div class="donde-img" data-aos="fade-right"><img src="./images/phone.png" alt="Phone Mockup" /></div>
+        <div class="donde-txt">
+            <h2>
+                De dónde venimos
+            </h2>
+            <p>
+                Our posturing , our imagined self-importance,
+                <span class="br">
+                    the delusion that we have some privileged
+                </span>
+                <span class="br">
+                    position in the Universe, are challengend by this
+                </span>
+                <span class="br">
+                    point of pale light.
+                </span>
+                <br>
+                <span class="br">
+                    Our planet is a lonely speck in the great
+                </span>
+                <span class="br">
+                    enveloping cosmic dark. In our obscurity , in all
+                </span>
+                <span class="br">
+                    this vastness , there is no hint that help will
+                </span>
+                <span class="br">
+                    come from elsewhere to save us from ourselves.
+                </span>
+            </p>
+        </div>
+    </section>
+
+
+    <section class="invitadxs" id="entrevistas">
+        <div class="container">
+            <h2>Invitadas/os estelares</h2>
+        </div>
+        <div class="img-container flex" style="overflow-x: hidden">
+            <img src="./images/grace-hopper.png" alt="Invitadx 1" data-aos="fade-left" />
+            <img src="./images/Katie-Bouman.png" alt="Invitadx 2" data-aos="fade-right" />
+            <img src="./images/Margaret_Hamilton.png" alt="Invitadx 4" data-aos="fade-left" />
+            <img src="./images/An E.R.A.Univac 1103 computer in the 1950s.png" alt="Invitadx 3" data-aos="fade-right" />
+            <img src="./images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+                alt="Invitadx 6" data-aos="fade-left" />
+            <img src="./images/susan-kare.png" alt="Invitadx 5" data-aos="fade-right" />
+        </div>
+    </section>
+
+    <section class="temas flex" id="topicos">
+        <div class="container">
+            <h2>Algunos de nuestros temas</h2>
+            <div class="img-container flex" style="overflow-x: hidden">
+                <div class="tema flex">
+                    <img src="./images/icon1.svg" alt="remoto" data-aos="fade-right" />
+                    <h3>Trabajo Remoto</h3>
+                </div>
+                <div class="tema flex">
+                    <img src="./images/icon2.svg" alt="Pensando" data-aos="fade-right" />
+                    <h3>Repensando la programacion</h3>
+                </div>
+                <div class="tema flex">
+                    <img src="./images/icon3.svg" alt="computer" data-aos="fade-right" />
+                    <h3>Base del código</h3>
+                </div>
+                <div class="tema flex">
+                    <img src="./images/icon4.svg" alt="micro" data-aos="fade-right" />
+                    <h3>Seguridad Infomática</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="fondo_color"></div>
+        <div class="container flex">
+            <h2>¿Querés las últimas novedades?</h2>
+            <a href="https://open.spotify.com/show/6C4MdNWQSPhmzBlIVau30e" data-aos="fade-up" data-aos-offset="25"
+                class="btn">Escuchá los episodios</a>
+        </div>
+    </section>
+    <footer>
+        <div class="container flex">
+            <p>©2019 — Hello blue pale dot</p>
+            <div class="rrss flex">
+                <a href="https://open.spotify.com/show/6C4MdNWQSPhmzBlIVau30e" class="vibrate">
+                    <i class="fab fa-spotify"></i>
+                </a>
+                <a href="https://www.instagram.com/postafm/?hl=es" class="vibrate">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/postafm?lang=en" class="vibrate">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/postafm/" class="vibrate">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://podcasts.apple.com/us/podcast/hoy-trasnoche/id1226212636" class="vibrate">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+</html>
